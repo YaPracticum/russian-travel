@@ -2,7 +2,7 @@
 
 **Ссылка на проект**
 
-* [Ссылка на проект на gh-pages](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+* [Ссылка на проект на gh-pages](https://yapracticum.github.io/russian-travel/index.html)
 
 ### Обзор
 * Интро
