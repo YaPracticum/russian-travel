@@ -1,0 +1,20 @@
+.root {
+  max-width: 1184px;
+  display: grid;
+  /* gap: 18px; */
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 52px repeat(5, auto) 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* padding: 0 28px; */
+  margin: 28px auto 0;
+  grid-template-areas:
+    "header header header header header header header header header header header header"
+    ". lead lead lead lead lead lead lead lead lead lead ."
+    ". intro intro intro intro intro intro intro . . . ."
+    "photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid"
+    ". places places places places places places places places places places ."
+    "cover cover cover cover cover cover cover cover cover cover cover cover"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
