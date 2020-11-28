@@ -1,0 +1,10 @@
+.cover {
+  width: 100%;
+  grid-area: cover;
+  margin: 92px 0;
+  position: relative;
+}
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
+}

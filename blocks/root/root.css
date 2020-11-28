@@ -2,12 +2,12 @@
   max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 52px repeat(5, auto) 100px;
+  grid-template-rows: 52px repeat(6, auto);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /* padding: 0 28px; */
-  margin: 28px auto 0;
+  padding: 28px 0 24px;
+  margin: 0 auto;
   grid-template-areas:
     "header header header header header header header header header header header header"
     ". lead lead lead lead lead lead lead lead lead lead ."
