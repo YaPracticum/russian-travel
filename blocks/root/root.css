@@ -1,7 +1,6 @@
 .root {
   max-width: 1184px;
   display: grid;
-  /* gap: 18px; */
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 52px repeat(5, auto) 100px;
   -webkit-box-sizing: border-box;
