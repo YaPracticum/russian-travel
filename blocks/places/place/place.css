@@ -24,3 +24,10 @@
     column-gap: 28px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place  {
+    display: inline-block;
+    margin-bottom: 49px;
+  }
+}
