@@ -6,7 +6,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 28px 0 24px; /* TO DO!!! */
+  padding: 28px 0 24px;
   margin: 0 auto;
   grid-template-areas:
     "header header header header header header header header header header header header"
@@ -16,4 +16,10 @@
     ". places places places places places places places places places places ."
     "cover cover cover cover cover cover cover cover cover cover cover cover"
     "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+@media screen and (max-width: 760px) {
+  .root  {
+    padding-top: 16px;
+  }
 }

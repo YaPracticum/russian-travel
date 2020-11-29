@@ -13,16 +13,22 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    top: 64%;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .cover__subtitle {
     top: 69%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    width: 288px;
+    width: 260px;
   }
 }

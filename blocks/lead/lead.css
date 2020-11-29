@@ -3,18 +3,11 @@
   margin: 56px auto 0;
 }
 
-/* @media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .lead {
-    margin: 48px auto 0;
-    padding: 0 48px;
+    /* padding: 0 48px; */
     grid-column-start: 1;
-    grid-column-end: 12;
+    grid-column-end: 13;
+    max-width: 928px;
   }
-} */
-
-/* @media screen and (max-width: 1024px) {
-  .lead {
-    margin: 48px auto 0;
-    padding: 0;
-  }
-} */
+}

@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    padding-left: 48px;
+    margin-left: 48px;
     grid-column-start: 1;
     width: 690px;
   }
@@ -14,16 +14,15 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    padding: 0 0 0 24px;
-    margin: 88px 0 88px;
+    margin: 88px 0 88px 24px;
     width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .intro {
-    padding: 0 0 0 16px;
-    margin: 64px 0 64px;
-    width: 288px;
+    margin: 64px 16px 64px;
+    width: 100%;
+    grid-column-end: 12;
   }
 }
