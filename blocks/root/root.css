@@ -6,7 +6,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 28px 0 24px;
+  padding: 28px 0 24px; /* TO DO!!! */
   margin: 0 auto;
   grid-template-areas:
     "header header header header header header header header header header header header"

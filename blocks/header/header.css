@@ -3,10 +3,17 @@
   display: flex;
   justify-content: space-between;
   transition: ease all .5s;
+  align-items: center;
 }
 
 @media screen and (max-width: 1280px) {
   .header {
     margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: 0 24px;
   }
 }

@@ -12,3 +12,9 @@
   margin: 0;
   color: #ffffff;
 }
+
+@media screen and (max-width: 764px) {
+  .cover__subtitle {
+    top: 69%;
+  }
+}

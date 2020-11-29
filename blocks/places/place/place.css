@@ -10,3 +10,17 @@
 .place:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .place  {
+    grid-template-columns: minmax(440px, 1fr);
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place  {
+    grid-template-columns: minmax(340px, 1fr);
+    column-gap: 28px;
+  }
+}
