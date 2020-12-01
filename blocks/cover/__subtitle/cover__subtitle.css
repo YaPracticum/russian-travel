@@ -5,11 +5,19 @@
   color: #ffffff;
   z-index: 1;
   position: relative;
-  margin: 0;
-  padding: 0 412px;
+  margin: 0 auto;
+  width: 360px;
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 600px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    width: 266px;
+  }
+}
+
+/* @media screen and (max-width: 1130px) {
   .cover__subtitle {
     padding: 0 332px;
   }
@@ -35,4 +43,4 @@
     line-height: 16px;
     padding: 0 16px;
   }
-}
+} */
