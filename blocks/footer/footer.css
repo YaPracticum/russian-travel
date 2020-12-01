@@ -5,15 +5,21 @@
   align-items: end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .footer  {
     margin: 0 48px;
   }
 }
 
+@media screen and (max-width: 900px) {
+  .footer  {
+    margin: 0 24px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer {
-    margin: 0 24px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
   }
 }

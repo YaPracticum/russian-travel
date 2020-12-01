@@ -10,6 +10,7 @@
   margin: 0 auto;
   grid-template-areas:
     "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
     ". lead lead lead lead lead lead lead lead lead lead ."
     ". intro intro intro intro intro intro intro . . . ."
     "photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid"
@@ -21,5 +22,11 @@
 @media screen and (max-width: 760px) {
   .root  {
     padding-top: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .root {
+    grid-template-rows: 42px repeat(6, auto);
   }
 }
